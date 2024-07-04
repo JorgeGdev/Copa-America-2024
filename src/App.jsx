@@ -8,7 +8,7 @@ function App() {
     <>
       <Leva hidden />
       <Overlay />
-      <Canvas shadows camera={{ position: [0, 1, 4], fov: 30 }}>
+      <Canvas shadows camera={{ position: [0, 1, 5], fov: 30 }}>
         <color attach="background" args={["#ececec"]} />
         <Experience />
       </Canvas>
